@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float l,b;
+    printf("enter the length of rectangle: ");
+    scanf("%f\n", &l);
+    printf("enter the breadth of rectangle:");
+    scanf("%f\n", &b);
+    printf("area of rectangle= %.2f", l*b);
+    printf("perimeter of rectangle= %.2f", 2*(l+b));
+
+    return 0;
+
+}
