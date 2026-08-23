@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    
+    scanf("%d", &num);
+    printf("the sum of the first %d natural integers is: %d\n", num ,  num * (num+1)/2);
+
+    return 0;
+
+}
