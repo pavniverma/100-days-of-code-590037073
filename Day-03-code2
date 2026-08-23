@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int temp,Fahrenheit;
+    printf("enter the temprature in celsius:\n");
+    scanf("%d\n", &temp);
+    Fahrenheit= ((temp*1.8)+32);
+    printf("Fahrenheit= %d\n", Fahrenheit);
+
+
+    return 0;
+
+}
