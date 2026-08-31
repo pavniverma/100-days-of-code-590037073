@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    if(ch>='a' && ch <='z')
+    {printf("its an lowercase alphabet");}
+    else if(ch>='A' && ch<='Z')
+    {printf("its an uppercase alphabet");}
+    else if(ch>='0' && ch<='9')
+    {printf("its an digit");}
+    else {
+        printf("its an special character");
+    }
+    return 0;
+
+}
